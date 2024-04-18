@@ -1,0 +1,11 @@
+package com.devtech.StorehouseTrackingApp.repositories;
+
+import com.devtech.StorehouseTrackingApp.entities.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    User findByUserName(String username);
+}
+
+//Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImlhdCI6MTcxMzQzNjcyMywiZXhwIjoxNzEzNDM2NzI2fQ.XXSlH29jGZXKuNqeZ8gR31IXM0dShfpGFs-PZhbH9FcJ0KzX5HWGq_ZYDESlBrtYYJ2Rt4uAFBC0Qb6JjtqdLw
+//Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImlhdCI6MTcxMzQzNjg3NywiZXhwIjoxNzEzNDM2ODgwfQ.WVyWk8BDenVprU3RtM2aRcjgUWs6yitWW0oJvjxIHeI264Nfs5R4U7SiDJQnQRbjfTHAKN-kmlFpZ9VQVHSHtw
