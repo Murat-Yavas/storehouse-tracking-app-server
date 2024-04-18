@@ -1,7 +1,7 @@
 # Storehouse Tracking App - Server
 
 Storehouse Tracking App created with Spring Boot and MySQL
-To see client side codes [click here.](https://github.com/Murat-Yavas/student-tracker-app-client)
+To see client side codes [click here.](https://github.com/Murat-Yavas/storehouse-tracking-app-client)
 
 ### Technologies
 -   Spring Boot
